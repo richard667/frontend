@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <label>Name:</label>
+        <input type="text">
+        <br>
+
+        <label>URI:</label>
+        <input type="text">
+        <br>
+
+        <label>Header: mock-header-filter=</label>
+        <input type="text">
+        <br>
+
+        <label>Method:</label>
+        <select>
+            <option>GET</option>
+            <option>POST</option>
+            <option>PATCH</option>
+            <option>HEAD</option>
+            <option>DELETE</option>
+        </select>
+        <br>
+
+        <label>RequestHeader:</label>
+        <input type="text">
+        <br>
+
+        <hr>
+        <label>ResponseHeader:</label>
+        <input type="text">
+        <br>
+
+        <label>ResponseBody:</label>
+        <!-- <input type="textarea" rows="5" cols="80"> -->
+        
+        <textarea rows="5" cols="80"></textarea>
+        <br>
+
+        <label>ResponseStatusCode:</label>
+        <input type="text">
+        <br>
+
+        <label>DelayTime:</label>
+        <input type="text">
+        <br>
+
+        <button>开关</button>
+        <br>
+        
+        <button>取消</button>
+        <button onclick="getSelected()">确定</button>
+
+        <div id="1">aaa</div>
+        <script src="./script.js" async defer></script>
+    </body>
+</html>
